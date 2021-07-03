@@ -16,7 +16,7 @@ h1{
     color: orange;
 }
 
-section{
+.flexiable{
     display: flex;
     margin-bottom: 60px;
 }
@@ -40,4 +40,38 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.epi{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
+   
+}
+
+#web1{
+    border-left: 7px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(191, 42, 42), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#web2{
+    border-left: 7px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(21, 11, 132), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
